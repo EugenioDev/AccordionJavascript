@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f3f9;
+}
+.cardSection {
+  max-width: 600px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 50px silver;
+}
+.cardHeader {
+  font-size: 15px;
+  border-bottom: 1px solid #f4f3f9;
+  padding: 30px 15px;
+  width: 85%;
+}
+
+.cardHeader h3 {
+  font-weight: 600;
+}
+.cardHeader p {
+  font-weight: 400;
+}
+
+.cardBody {
+  padding: 30px 0;
+}
+.cardBody ul {
+  list-style: none;
+}
+.cardBody span {
+  margin-right: 15px;
+}
+
+.cardBody ul li {
+  font-weight: 600;
+  margin: 30px 0;
+}
+.cardBody ul li p {
+  font-weight: 300;
+  background-color: #f4f3f9;
+  line-height: 25px;
+  font-size: 15px;
+  display: block;
+  border-radius: 5px;
+  padding: 15px 40px;
+}
+
+.cardBody .tabAccordion {
+  display: none;
+}
+
+.cardBody #LearnMore {
+  border-radius: 20px;
+  padding: 10px 25px;
+  margin-top: 20px;
+  background-color: #7c74fc;
+  border: none;
+  color: white;
+  font-weight: 600;
+  display: inline-block;
+  display: none;
+}
+
+.cardBody img {
+  width: 16px;
+}
